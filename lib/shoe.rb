@@ -15,5 +15,5 @@ class Shoe
 
   def size=(size)
     @size = size
-    self.uniq 
+    self.size = size.uniq 
 end
